@@ -8,7 +8,7 @@ def home():
     return "Bot is running on Render"
 
 def run():
-    app.run(host="0.0.0.0", port=8002)
+    app.run(host="0.0.0.0", port=8005)
 
 def keep_alive():
     t = threading.Thread(target=run)
