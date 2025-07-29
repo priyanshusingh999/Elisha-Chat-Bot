@@ -137,5 +137,5 @@ def main(): # Main loop to check for new messages
         time.sleep(1)
 
 if __name__ == '__main__':
-    main()
     keep_alive()
+    main()
